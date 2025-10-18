@@ -18,3 +18,27 @@ Setup the project. The symbols and footprints were obtained from Raspberry Pi's 
 ![Screenshot 2025-10-17 at 3.49.15 PM.png](https://blueprint.hackclub.com/user-attachments/blobs/proxy/eyJfcmFpbHMiOnsiZGF0YSI6MjU4MywicHVyIjoiYmxvYl9pZCJ9fQ==--6b5d257a05965325e3cb0cd51f269d22fd772d94/Screenshot%202025-10-17%20at%203.49.15%E2%80%AFPM.png)
   
 
+## 10/18/2025 - Finished most of the schematic  
+
+Fixed a few mistakes in the initial schematic.
+
+Finished the high speed sheet that handles the high-speed interfaces of the CM5, being USB3, HDMI, and the display/camera connectors.
+
+Finished the GPIO sheet that handles Ethernet, SD, and a few other things.
+
+Finished the M.2 sheet that has the M.2 PCIe connector.
+
+Switched many things from global to net labels as it is much easier to keep track of.
+
+The next step is to use the currently unused USB3-1 to do SATA connections.
+
+![image.png](https://blueprint.hackclub.com/user-attachments/blobs/proxy/eyJfcmFpbHMiOnsiZGF0YSI6MjgyNywicHVyIjoiYmxvYl9pZCJ9fQ==--1d89320aa26a2705348e8035a8206527b896a3eb/image.png)
+
+![image.png](https://blueprint.hackclub.com/user-attachments/blobs/proxy/eyJfcmFpbHMiOnsiZGF0YSI6MjgyOCwicHVyIjoiYmxvYl9pZCJ9fQ==--0b63127838d642cf131e7f33a4d95474104c6882/image.png)
+
+![image.png](https://blueprint.hackclub.com/user-attachments/blobs/proxy/eyJfcmFpbHMiOnsiZGF0YSI6MjgyOSwicHVyIjoiYmxvYl9pZCJ9fQ==--af28b625abbaf931fc00ed50b5cf87bff86e7fb4/image.png)
+
+![image.png](https://blueprint.hackclub.com/user-attachments/blobs/proxy/eyJfcmFpbHMiOnsiZGF0YSI6MjgzMCwicHVyIjoiYmxvYl9pZCJ9fQ==--4acf9f229306f64bb38841361420361b2f92a1eb/image.png)
+
+Parts of the schematic were used from the official Raspberry Pi CM5 IO Board schematics, and adapted to my use case.  
+
